@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+body{
+    background-color: grey; 
+    font-family: Montserrat, sans-serif;
+} 
+/* star head    ################ */
+header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.main-head{
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-head div img{
+    cursor: pointer;
+}
+.content-head ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.content-head ul li{
+    font-size: 18px;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    cursor: pointer;
+}
+.content-head ul :hover{
+    color:#ec6011;
+}
+/* end head    ################ */
+.cont-section{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    word-spacing: 2px;
+    font-size: 1.125rem;
+    font-family: Montserrat, sans-serif;
+    line-height: 2;
+}
+.cont-section a{
+    color: #ffffff;
+}
+.cont-section span{
+    text-underline-position: above;
+}
+.ico{
+    width: 6%;
+    color: green;
+} 
+.ico2{
+    width: 6%;
+    color: rgb(255, 0, 0);
+}
+/* star section box----------------------- */
+.section-box{
+    width: 100%;
+    height: 90vh;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.main-section-box{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.box{
+    width: 31.333%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.box h2{
+    font-weight: 900;
+    font-size: 50px;
+}
+.main-box1{
+    width: 80%;
+    height: 35vh;
+    background-image: linear-gradient(#4e4276, #573aba);
+    position: relative;
+    top: -50px;
+    left: 10%;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    align-content: center;
+    line-height: 1.8;
+    font-family: Montserrat, sans-serif;
+}
+.main-box2{
+    width: 80%;
+    height: 35vh;
+    background-image: linear-gradient(#697d34, #92c705);
+    position: relative;
+    top: -50px;
+    left: 10%;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    align-content: center;
+    line-height: 1.8;
+    font-family: Montserrat, sans-serif;
+}
+.main-box3{
+    width: 80%;
+    height: 35vh;
+    background-image: linear-gradient(#ae6237, #ec6011);
+    position: relative;
+    top: -50px;
+    left: 10%;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    align-content: center;
+    line-height: 1.8;
+    font-family: Montserrat, sans-serif;
+} 
+.contant-box{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    align-content: center;
+}
+.contant-box ul{
+    list-style: none;
+}
+.contant-box ul li{
+    padding: 13px;
+}
+.contant-box button{
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    background-color: #ec6011;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.overlay{
+    opacity: rgba(0, 0, 0, 0.9);
+}
+.contant-box button:hover{
+    opacity: 0.9;
+}
+/* end section box----------------------- */
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    line-height: 2;
+    word-spacing: 2px;
+}
